@@ -15,7 +15,7 @@ var checkDead = setInterval(function() {
         block.style.animation = "none";
         alert("Game Over. score: "+Math.floor(counter/100));
         counter=0;
-        block.style.animation = "block 1s infinite linear";
+        block.style.animation = "block 2s infinite linear";
     }else{
         counter++;
         document.getElementById("scoreSpan").innerHTML = Math.floor(counter/100);
